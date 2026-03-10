@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Peacock Resort Juba</title>
+    <script>
+      // GitHub Pages SPA redirect:
+      // Converts the path into a hash-based URL so the SPA router can handle it.
+      var pathSegmentsToKeep = 1; // Keep 1 segment for project pages (the repo name)
+      var l = window.location;
+      l.replace(
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+        l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/' +
+        '#/' +
+        l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/')
+      );
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
