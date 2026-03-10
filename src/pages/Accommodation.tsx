@@ -225,14 +225,14 @@ export default function Accommodation() {
                 </div>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <select className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:border-brand-teal focus:ring-1 focus:ring-brand-teal text-gray-700" required>
-                  <option value="" disabled selected>Select Room Type</option>
+                <select className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:border-brand-teal focus:ring-1 focus:ring-brand-teal text-gray-700" required defaultValue="">
+                  <option value="" disabled>Select Room Type</option>
                   <option value="standard">Standard Room</option>
                   <option value="deluxe">Deluxe Room</option>
                   <option value="premium">Premium Suite</option>
                 </select>
-                <select className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:border-brand-teal focus:ring-1 focus:ring-brand-teal text-gray-700" required>
-                  <option value="" disabled selected>Number of Guests</option>
+                <select className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:border-brand-teal focus:ring-1 focus:ring-brand-teal text-gray-700" required defaultValue="">
+                  <option value="" disabled>Number of Guests</option>
                   <option value="1">1 Guest</option>
                   <option value="2">2 Guests</option>
                   <option value="3">3 Guests</option>

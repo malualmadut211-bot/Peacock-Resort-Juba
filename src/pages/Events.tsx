@@ -152,8 +152,8 @@ export default function Events() {
                 <input type="tel" placeholder="Phone Number *" className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:border-brand-teal focus:ring-1 focus:ring-brand-teal" required />
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <select className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:border-brand-teal focus:ring-1 focus:ring-brand-teal text-gray-700" required>
-                  <option value="" disabled selected>Event Type *</option>
+                <select className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:border-brand-teal focus:ring-1 focus:ring-brand-teal text-gray-700" required defaultValue="">
+                  <option value="" disabled>Event Type *</option>
                   <option value="wedding">Wedding</option>
                   <option value="corporate">Corporate Event</option>
                   <option value="birthday">Birthday</option>
@@ -162,8 +162,8 @@ export default function Events() {
                   <option value="private">Private Gathering</option>
                   <option value="other">Other</option>
                 </select>
-                <select className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:border-brand-teal focus:ring-1 focus:ring-brand-teal text-gray-700" required>
-                  <option value="" disabled selected>Estimated Guests *</option>
+                <select className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:border-brand-teal focus:ring-1 focus:ring-brand-teal text-gray-700" required defaultValue="">
+                  <option value="" disabled>Estimated Guests *</option>
                   <option value="1-50">1-50</option>
                   <option value="51-100">51-100</option>
                   <option value="101-250">101-250</option>
@@ -178,8 +178,8 @@ export default function Events() {
                   <label className="text-xs text-gray-500 absolute -top-2 left-3 bg-white px-1">Preferred Date *</label>
                   <input type="date" className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:border-brand-teal focus:ring-1 focus:ring-brand-teal text-gray-700" required />
                 </div>
-                <select className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:border-brand-teal focus:ring-1 focus:ring-brand-teal text-gray-700" required>
-                  <option value="" disabled selected>Event Duration *</option>
+                <select className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:border-brand-teal focus:ring-1 focus:ring-brand-teal text-gray-700" required defaultValue="">
+                  <option value="" disabled>Event Duration *</option>
                   <option value="half">Half Day</option>
                   <option value="full">Full Day</option>
                   <option value="evening">Evening Only</option>
